@@ -1,0 +1,2 @@
+# bootstrap-home
+copy @ home
