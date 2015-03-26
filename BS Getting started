@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>BootStrap 101</title>
+	<!-- BS file -->
+	<link rel="stylesheet" type="text/css" href="css\bootstrap-responsive.min.css">
+	<link rel="stylesheet" href="css\bootstrap.min.css" media="screen">
+</head>
+<body>
+<div class="container">
+	<h1>My First BootStrap Page</h1>
+	<p> This is inside a container class </p>
+	<p class="lead">This page has also lead implementation</p>
+	<p><small>Testing out small feature in <strong>BootStrap</strong>BS</small></p>
+<!-- 		<div class="row">
+			<div class="span4" style="background-color:grey">grey</div>
+			<div class="span4" style="background-color:black">black</div>
+			<div class="span4" style="background-color:green">green</div>
+		</div>
+		<div class="row">
+			<div class="span4 offset1" style="background-color:grey">span4 offset1</div>
+			<div class="span4 offset2" style="background-color:grey">span4 offset1</div>	
+		</div>
+		<div class="row">
+			<div class="span9 offset2" style="background-color:grey">Level1
+				<div class="row">
+					<div class="span6" style="background-color:green">lvel2</div>
+					<div class="span3" style="background-color:blue">Level2</div>
+				</div>
+			</div>
+		</div><br><br>
+		<div class="row-fluid">
+			<div class='span12' style="background-color:blue">fluid12
+				<div class="row-fluid">
+					<div class="span6" style="background-color:grey"> Level2
+						<div class="row-fluid">
+							<div class="span4 " style="background-color:red">red</div>
+							<div class="span8" style="background-color:yellow">blue</div>
+						</div>
+					</div>
+					<div class="span6" style="background-color:black">Level2
+						<div class="row-fluid">
+							<div class="span6 text-center" style="background-color:purple">Left</div>
+							<div class="span6 text-center" style="background-color:pink">Right</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><br>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span12" style="background-color:black">container-fluid</div>
+			</div>
+			<div class="row-fluid">
+				<div class="span2" style="background-color:blue">Span2</div>
+				<div class="span10" style="background-color:yellow">span10
+					<div class="row-fluid">
+						<div class="span3" style="background-color:black">Level3</div>
+						<div class="span9" style="background-color: grey">Level3</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</div><br><br>
+<div class="container">
+	<strong>This is to demonstrate various text styles</strong>
+	<p class="muted">textmuted</p>
+	<p class="text-success">Text Success</p>
+	<p class="text-error">Text error</p>
+	<p class="text-warning">Text warning</p>
+	<p class="text-info">Text info</p> <abbr title="hyper text mark up" class="initialism">HTML</abbr>
+</div><br><br>
+<div class="container">
+	<address>
+		<strong>Praveen Makam</strong><br>
+		Augusta Block, CSC India, EGL Biz Park,<br>
+		Bangalore - 560071.<br>
+		<abbr title="phone">P:</abbr>8867672043<br>
+		<a href="mailto:#">Praveen.makam2012@gmail.com</a>
+	</address>
+</div><br>
+<div class="container">
+	<blockquote class="pull-right">
+		<p>Helping Hands are better than Praying lips</p>
+		<small>Someone Famous <cite title="Source Title">Praveen</cite></small>
+	</blockquote>
+<div class="row">
+	My Qualification:
+	<ul >
+		<li>Engineering </li>
+		<ol class="inline">
+			<li>Semester1</li>
+			<li>Semester1</li>
+			<li>Semester1</li>
+			<li>Semester1</li>
+		</ol>
+	</ul>	
+	<ul><li>XII</li>
+		<ol>
+			<li>MPC II</li>
+			<li>MPC I</li>
+		</ol>
+	</ul>	
+	<ul class="inline">
+		<li>Test1</li>
+		<li>Test2</li>
+		<li>Test3</li>
+	</ul>
+</div>
+<div class="container">
+	<dl class="dl-horizontal">
+		<dt> Description Title</dt>
+		<dd> Data to be in the description. This is single sentence in an app but it is being shown as a para. It is correct and you can always pass it without a second thought.</dd>
+	</dl>
+	<dl class="dl-horizontal">
+		<dt> Title:</dt>
+		<dd> Conditions under the new title in the description</dd>
+	</dl>
+
+</div>
+<div class="container">
+	<code> Salesforce Apex Code Block </code>
+	<p> 
+		
+		<pre>
+		public class Accountcatch{<br>
+
+		public class Accountcatch(Apexpages.standardcontroller ctrl){}<br>
+		public List<account> getAccount(){<br>
+		List<account> Acc = [select id,name from Account];<br>
+		return Acc;<br>
+	}<br>
+	}<br>
+</pre>
+	</p>
+</div>
+<div class="container ">
+	<table class="table table-bordered table-hover table-condensed ">
+		<caption> Sample Table</caption>
+		<thead class="success">
+		<tr >
+			<th>Name</th>
+			<th>Phone</th>
+			<th class="text-center">Email</th>
+		</tr>
+		</thead>
+		<tr>
+			<td>Praveen</td>
+			<td>8867672043</td>
+			<td class="text-center">praveen.makam2012@gmail.com</td>
+		</tr>
+		<tr>
+			<td>Swarna</td>
+			<td>8095070924</td>
+			<td class="text-center">swarna.makam@gmail.com</td>
+		</tr>
+	</table>
+</div> -->
+
+<!-- <div class="container">
+	<table class="table table-bordered table-hover">
+		<caption> <strong>Students Table</strong></caption>
+		<thead>
+			<th>Sl.no</th>
+			<th>Name</th>
+			<th>Email</th>
+		</thead>
+		<tbody>
+			<tr class="success">
+				<td>1</td>
+				<td>Praveen</td>
+				<td>praveen.makam2012@gmail.com</td>
+			</tr>
+			<tr class="info">
+				<td>2</td>
+				<td>Swarna</td>
+				<td>swarna.makam@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+
+</div> -->
+</div>
+<!-- <div class="container">
+	<code>Code Block</code>
+	<pre class="pre-scrollable">
+		#include stdio.h
+		#include conio.h
+		#include math.h
+		
+		main(){
+		int i,j,k=0;
+		scanf("%d",&i);
+		scanf("%d","&j");
+		k = i + j;
+		printf("%d", k);
+	}
+	</pre>
+</div> -->
+<div class="container">
+	<form class="pull-right ">
+		<fieldset>
+			<legend>Login Form</legend>
+			<label>Username:</label>
+			<input type="text" placeholder='praveen.makam2012'>
+			<span class="help-block">Enter username in the above mentioned format.</span>
+			<label>Password:</label>
+			<input type="password" placeholder='******'>
+			<label class="checkbox">
+			<input type="checkbox">Check me out!
+			</label>
+			<button type="submit" class="btn btn-primary"> Submit</button>
+			<button type="submit" class="btn btn-info">Cancel</button>
+		</fieldset>
+	</form>
+</div>
+<div class="container ">
+	<form class="form-search pull-right">
+	<!-- 	<legend> Search form</legend> -->
+		<input type="text" class="search-query" placeholder = "Enter Text to search">
+		<button type="submit" class="btn btn-info search-query">Search</button>
+	</form>
+</div>
+<div class="container">
+	<form class="form-inline form-search">
+		<fieldset>
+		<input type="text" class="search-query" placeholder="username">
+		<input type="password" class="search-query" placeholder="*****">
+		<input type="email" class="search-query">
+		<input type="date" class="search-query">
+		<textarea rows="3"></textarea>
+		
+		<label class="checkbox inline">
+			<input type="checkbox" value=""> Checkbox1
+		</label>	
+		<label class="checkbox inline">
+			<input type="checkbox" value=""> Checkbox1
+		</label>
+		<label class="checkbox inline">
+			<input type="checkbox" value=""> Checkbox1
+		</label>	
+		<label class="radio">
+			<input type="radio" name="radio1" value="option1">Option 1
+		</label>
+		<label class="radio">
+			<input type="radio" name="radio1" value="option2">Option 2
+		</label>	
+		<button type="submit" class="btn btn-primary ">Login</button>
+		<button type="submit" class="btn btn-warning ">Cancel</button>
+		</fieldset>
+	</form>
+</div>
+<div class="container">
+	<form class="form-horizontal">
+		<div class="control-group">
+			<label class="control-label" for="input email">Email</label>
+				<div class="controls">
+					<input type="text" placeholder="username" id="input email"class="search-query">
+				</div>
+		</div>
+		<div class="form-horizontal">
+			<div class="control-group">
+				<label class="control-label" for="password">Password:</label>
+					<div class="controls">
+						<input type="password" id="password" class="search-query" placeholder="*****">
+					</div>
+			</div>
+		</div>
+		<div class="form-horizontal">
+			<div class="control-group">
+				<div class="controls">
+					<button type="submit" class="btn search-query">Login</button>
+					<button type="submit" class="btn search-query">Cancel</button>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="js\bootstrap.min.js"></script>
+</body>
+</html>
